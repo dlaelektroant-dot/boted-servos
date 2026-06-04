@@ -1,24 +1,10 @@
 {
-    "name": "boted servos",
-    "description": "",
-    "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
-    },
-    "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "targetVersions": {
-        "target": "8.0.22",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ]
+  "name": "microbot-servos",
+  "version": "1.0.0",
+  "description": "Sterowanie robotem: prawa ręka (P1), lewa ręka (P2), głowa (P3)",
+  "files": [
+    "main.ts",
+    "servos.ts"
+  ],
+  "public": true
 }
